@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.gdse.controller.ChatApplicationController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse.controller.ChatApplicationController">
+   <children>
+      <TextField fx:id="txtSendMsg" layoutX="81.0" layoutY="308.0" prefHeight="63.0" prefWidth="363.0" />
+      <Button layoutX="476.0" layoutY="312.0" mnemonicParsing="false" onAction="#btnSendOnAction" prefHeight="51.0" prefWidth="97.0" text="Button" />
+      <TextArea fx:id="textAria" layoutX="90.0" layoutY="21.0" prefHeight="261.0" prefWidth="446.0" />
+   </children>
 </AnchorPane>
